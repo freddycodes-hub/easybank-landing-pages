@@ -1,0 +1,428 @@
+nav{
+    background: white;
+}
+#nav-logo{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#nav-links{
+    text-align: center;
+    margin-bottom: -30px;
+}
+a{
+    text-decoration: none;
+    padding-left: 30px;
+    margin-bottom: -30px;
+    color: gray;
+}
+a:hover{
+    color: black;
+    cursor: pointer;
+}
+#button{
+    margin-left: 1050px;
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+}
+#button:hover{
+    background-color: green;
+    background:linear-gradient(90deg, rgb(46, 126, 230) 35%, rgb(0, 255, 34) 100%);
+    color: white;
+}
+/* start of banner */
+#banner{
+    margin-top: 30px;
+    background-color:  hsl(0, 20%, 99%); 
+    height: 600px;
+    margin-bottom: 60px;
+}
+#banner-background{
+    margin-top: -30px;
+    margin-bottom: 500px;
+    padding-left: 500px;
+    height: 864px;
+    position: absolute;
+    top: -120px;    
+}    
+h1{
+   padding-left: 90px;
+   padding-top: 100px; 
+   font-size: 50px;
+   font: 200 50px/1.2 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#banner-content{
+    color: gray;
+    padding-left: 90px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#request{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: cyan;
+    border-style: none;
+    border-radius: 25px;
+    width: 140px;
+    height: 40px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+/* End of banner */
+
+/* start of features */
+section{
+    height: 700px;
+    margin-top: -70px;
+    background-color: hsl(220, 16%, 96%) 
+}
+#features-header-content{
+    color: gray;
+    margin-left: 90px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#features{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+h3{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.feature-content{
+    line-height: 30px;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: gray;
+}
+/* end of features */
+/* beginning of articles section */
+#articles{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 20%, 99%);
+}
+#article-header{
+    text-align: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+#card{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 210px;
+    height: 320px;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    padding-left: 30px;
+    justify-content: space-between;
+}
+.card-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 240px;
+    height: 150px;
+    position: relative;
+    top: 0px;
+    left: -30px
+}
+#card-header{
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0px
+}
+#card-header:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+#card-content{
+    line-height: 23px;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+/* #beginning of footer section */
+#footer{
+    height: 170px;
+    background-color: hsl(234, 39%, 19%);
+    margin-top: -70px;
+}
+#footer-logo{
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.social-icons{
+    margin-left: 110px;
+    margin-top: 40px;
+    letter-spacing: 8px;
+}
+#footer-links1{
+    margin-left: 400px;
+    margin-top: -100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+#footer-links2{
+    margin-left: 600px;
+    margin-top: -90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+#b:hover{
+    color: rgb(89, 184, 152);
+}
+#footer-button{
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer-button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+#fooot{
+    margin-left: 1050px;
+    margin-top: -100px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -50px;
+    font-size: 14px;
+    color: gray;
+}
+@media screen and (max-width: 768px) {
+    nav{
+        margin-left: 30px;
+        background: white;
+    }
+    #nav-logo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-left: 80px;
+    }
+    #nav-links{
+        text-align: center;
+        margin-left: -40px;
+        margin-bottom: -30px;
+    }
+    a{
+        text-decoration: none;
+        padding-left: 5px;
+        margin-bottom: -30px;
+        color: gray;
+    }
+    a:hover{
+        color: black;
+        cursor: pointer;
+    }
+    #button{
+        margin-top: 50px;
+        margin-left: 80px;
+        border-radius: 25px;
+        width: 140px;
+        height: 40px;
+    }
+    #button:hover{
+        background-color: green;
+        background:linear-gradient(90deg, rgb(46, 126, 230) 35%, rgb(0, 255, 34) 100%);
+        color: white;
+    }
+    /* start of banner */
+    #banner{
+        width: 450px;
+        margin-left: -80px;    
+        margin-top: 30px;
+        background-color:  hsl(0, 20%, 99%); 
+        height: 350px;
+        margin-bottom: 60px;
+    }
+    h1{
+       padding-left: 80px;
+       padding-top: 50px; 
+       font-size: 30px;
+       font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    #banner-content{
+        color: gray;
+        font-size: 15px;
+        padding-left: 80px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #request{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: cyan;
+        border-style: none;
+        border-radius: 25px;
+        width: 140px;
+        height: 40px;
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+    /* End of banner */
+    
+    /* start of features */
+    section{
+        width: 370px;
+        height: 1650px;
+        margin-top: -68px;
+        background-color: hsl(220, 16%, 96%) 
+    }
+    #features-header{
+        margin-left: -70px;
+    }
+    #features-header-content{
+        color: gray;
+        line-height: 25px;
+        margin-left: 10px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    #features{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    img{
+        width: 50px;
+        height: 50px;
+    }
+    h3{
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    .feature-content{
+        line-height: 30px;
+        font-size: 15px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: gray;
+    }
+    /* end of features */
+    /* beginning of articles section */
+    #articles{
+        margin-top: 1px;
+        margin-left: -30px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    #article-header{
+        text-align: left;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #card{
+        background-color: rgb(248, 248, 248);
+        border-radius: 10px;
+        width: 210px;
+        height: 320px;
+        margin-left: 60px;
+        margin-bottom: 80px;
+    }
+    .card-image{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 240px;
+        height: 150px;
+        position: relative;
+        top: 0px;
+        left: -30px
+    }
+    #card-header{
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-left: -20px;
+    }
+    #card-header:hover{
+        color: aquamarine;
+        cursor: pointer;
+    }
+    #card-content{
+        margin-left: -20px;
+        line-height: 23px;
+        font-size: 13px;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: gray;
+    }
+    /* #beginning of footer section */
+    #footer{
+        height: 300px;
+        background-color: hsl(234, 39%, 19%);
+        margin-top: 70px;
+        width: 370px;
+    }
+    #footer-logo{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .social-icons{
+        margin-left: 20px;
+        margin-top: 40px;
+        letter-spacing: 8px;
+    }
+    #footer-links1{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 14px;
+    }
+    #footer-links2{
+        margin-left: 120px;
+        margin-top: -90px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 14px;
+    }
+    #b:hover{
+        color: rgb(89, 184, 152);
+    }
+    #footer-button{
+        margin-top: 10px;
+        margin-left: 20px;
+        border-radius: 25px;
+        width: 150px;
+        height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #footer-button:hover{
+        background-color: aquamarine;
+        color: white;
+    }
+    #fooot{
+        margin-left: 250px;
+        margin-top: -40px;
+
+    }
+    h4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: gray;
+    }
+}
